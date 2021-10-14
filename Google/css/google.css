@@ -5,6 +5,7 @@
 }
 html{
     font-size: 62.5%;
+     font-family: arial,sans-serif;
 }
 
 header{
@@ -31,6 +32,7 @@ nav{
 .contenedor__items a{
     text-decoration: none;
     margin: 15px;
+    font-size: 0.8rem;
 
    /* background-position:center ;
     background-size: contain;
@@ -38,7 +40,7 @@ nav{
 }
 
 .contenedor__items .icono{
-    background-image: url("/practicas/Google/img/menu-de-puntos.png");
+    background-image: url("/Google/img/menu-de-puntos.png");
     background-position:center ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -101,7 +103,7 @@ main .logo img{
 }
 
 .busqueda-input .lupa{
-    background-image: url("/practicas/Google/img/busqueda.png");
+    background-image: url("/Google/img/busqueda.png");
     background-position:center ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -159,24 +161,79 @@ main .logo img{
 .region{
     width: 100%;
     height: 20px;
-    margin-top: 120px;
+    margin-top: 133.5px;
     background-color: #f2f2f2;
     border-bottom: 0.5px solid rgba(219, 212, 212, 0.932);
     display: flex;
     align-items: center;
+    
    
 }
 .region h2{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 300;
     color:grey;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 .contenedor__footer{
     display: grid;
-    grid-template-columns: repeat();
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     height: 25px;
     background-color: #f2f2f2;
    
 }
+.contenedor__footer li{
+    list-style: none;
+    margin-left: 15px;
+
+}
+.contenedor__footer a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color:grey;
+}
+.contenedor__footer a:hover{
+   text-decoration: underline;
+    cursor: pointer;
+}
+.izquierda{
+    width: 350px;
+    height: auto;
+    
+    
+}
+.footer--izquierda{
+    display: flex;
+    width: auto;
+    height: 25px;
+    align-items: center;
+    margin-left:0;
+}
+
+.derecha{
+    width: 250px;
+    height: auto;
+    display: flex;
+    margin-left: 150px;
+   
+   justify-content: flex-end;
+    
+    
+}
+.footer--derecha{
+    display: flex;
+   
+    height: 25px;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+   
+   
+    
+   
+   
+  
+
