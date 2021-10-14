@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+  /*  background-color: aqua;*/
+    display: flex;
+    justify-content: flex-end;
+    
+}
+nav{
+   
+    width: 250px;
+    height: auto;
+  
+}
+.contenedor__items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    list-style: none;
+}
+.contenedor__items a{
+    text-decoration: none;
+    margin: 15px;
+
+   /* background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;*/
+}
+
+.contenedor__items .icono{
+    background-image: url("/img/menu-de-puntos.png");
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+.contenedor__items .perfil img{
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+   border-radius: 50%;
+   margin-left: 10px;
+   width: 30px;
+   height: 30px;
+}
+
+/***********************MAIN **************************/
+main{
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:45px ;
+  /*  background-color: burlywood; */
+    
+}
+main .logo{
+    display: flex;
+    justify-content: center;
+}
+main .logo img{
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 70px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.busqueda-input{
+    display: flex;
+    justify-content: center;
+    border-radius: 180px;
+    border: 1px solid rgba(235, 226, 226, 0.932);
+    width: 290px;
+   
+   
+}
+.busqueda-input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.busqueda-input .input{
+    width: 250px;
+   
+}
+
+.busqueda-input .lupa{
+    background-image: url("/img/busqueda.png");
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10px;
+   
+    
+}
+.busqueda-input .input{
+    border: none;
+    outline: none;
+   
+}
+.busqueda-input .microfono img{
+    background-position:center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 50px;
+   
+ 
+}
+.botones button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgba(235, 226, 226, 0.932);
+}
+
+.botones .boton-izquierda{
+    font-size: 0.55rem;
+    letter-spacing: 0.2px;
+     margin-right: 10px;
+    
+    
+     padding: 5px 10px;
+     border: none;
+    background-color: white;
+     
+}
+.botones .boton-derecha{
+    font-size: 0.55rem;
+    letter-spacing: 0.2px;
+     margin-right: 20px;
+     
+     border: none;
+    background-color: white;
+     padding: 5px 10px;
+    
+}
+
