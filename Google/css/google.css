@@ -40,7 +40,7 @@ nav{
 }
 
 .contenedor__items .icono{
-    background-image: url("/Google/img/menu-de-puntos.png");
+    background-image: url("/practicas/Google/img/menu-de-puntos.png");
     background-position:center ;
     background-size: contain;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ main .logo img{
 }
 
 .busqueda-input .lupa{
-    background-image: url("/Google/img/busqueda.png");
+    background-image: url("/practicas/Google/img/busqueda.png");
     background-position:center ;
     background-size: contain;
     background-repeat: no-repeat;
